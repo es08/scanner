@@ -1,0 +1,19 @@
+{
+  "name": "beacon.scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scanner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node scanner.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.1.0",
+    "node-beacon-scanner": "^0.1.1",
+    "mathjs": "^5.4.1",
+    "mqtt": "^2.18.8",
+    "kalmanjs": "^1.1.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "Scanner": {
+    "mqtt":
+    {
+      "url": "",
+      "username": "",
+      "password": "",
+      "clientId": "" 
+    }, 
+    "beacon":
+    {
+      "serviceUUID": "AAAAAAAA-BBBB-CCCC-DDDD-EEEEEEEEEEEE",
+      "topicBeaconStay": "/Beacon/gearname/scaner/beacon/update",
+      "topicBeaconExit": "/Beacon/gearname/scaner/beacon/exit",
+      "beaconTimeout": 20000,
+      "IntervalUpdateAndRemove": 5000,
+      "maxRssiDataLength": 50,
+      "readyToUseRssiDataLength": 30,
+      "measuredPower": -76
+    }
+  }
+}
